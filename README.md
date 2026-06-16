@@ -130,7 +130,7 @@ ons-ma-data-quality-audit/
 ## Author
 
 **mahibala9** · June 2026  
-Kaggle: [ons-ma-data-quality-audit]([https://www.kaggle.com](https://www.kaggle.com/code/mahathisatyawada/ons-uk-m-a-data-quality-governance-audit))
+Kaggle: [ons-ma-data-quality-audit](https://www.kaggle.com/code/mahathisatyawada/ons-uk-m-a-data-quality-governance-audit)
 
 ***
 
