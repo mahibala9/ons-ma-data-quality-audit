@@ -1,0 +1,6 @@
+Dimension,Score (1-5),Evidence,Recommendation
+Completeness,3,"In quarterly rows, regional series (Europe, Asia, Oceania, Americas) are almost entirely absent; they are structurally minimalist by design but lack documentation",Clearly record annual-only columns in a data dictionary and mark them as inappropriate for quarterly AI/ML application without aggregation.
+Consistency,3,There is a difference between the reported total and the sum of the component series (independents + subsidiaries) in 56 out of 213 quarterly rows (26%).,"Do not assume additivity over the entire history; instead, look at methodology notes for the pre-1987 period where component series seem unreported."
+Timeliness,5,"As of June 2026, it was updated to 2026 Q1; the next release is set for September 2026; the usual quarterly cadence is maintained throughout.","Timeliness is robust, thus no intervention is required."
+Temporal Continuity,5,The backbone is structurally complete after 229 continuous quarters from 1969 Q1 to 2026 Q1 with no gaps.,"The temporal backbone is complete, so no intervention is required."
+Schema Quality,3,"Three inconsistent £m header formats (':£m', ': £m', ': £m') across ninety columns; one column name typo ('Ouward' instead of 'Outward')",Correct typos in downstream pipelines and standardize column nomenclature during ingestion.
